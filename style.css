@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+header {
+    margin: 40px;
+
+}    
+body {
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    
+       
+}
+
+.container-input-output {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-input-output .input {
+    width: 400px;
+    height: 305px;
+}
+
+
+#input-text {
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    color: #0A3871;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    text-transform: uppercase;
+    margin: 20px 0 auto 20px;
+    
+    
+}
+
+#input-text .placeholder {
+    color: red;
+
+}
+.input p {
+    font-size: 14px;
+    margin-left: 20px;
+    color: #495057;
+    font-weight: bold;
+}
+#output {
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid rgb(91, 91, 180);
+    border-radius: 15px;*/
+    width: 300px;
+    height: 400px;
+    margin-right: 10%;
+    
+}
+#output h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #343A40;
+}
+#output span {
+    text-align: center;
+    
+    color:darkcyan;
+    margin-top: 30px;
+    color: #495057;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+text-align: center;
+}
+
+.container-buttons {
+    box-sizing: content-box;
+    margin:0 10px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;  
+}
+
+.btn-crypt, .btn-descrypt {
+    height: 67px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.btn-crypt {
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+.btn-crypt:hover {
+    transform: scale(1.2);
+}
+.btn-descrypt:hover {
+    transform: scale(1.2);
+    
+}
+.btn-copiar {
+    height: 47px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+footer {
+    text-align: center;    
+    margin-top: 3%;
+}
+
+footer p {
+    font-size: 11px;
+    color: #495057;
+}
+
+footer a {
+    text-decoration: none;    
+}

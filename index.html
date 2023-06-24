@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="http://www.alura.com.br"><img class="logo-alura" src="logo-alura.png" alt="logo-alura" srcset=""></a>          
+        </div>
+    </header>
+    <main class="container">       
+        <div class="container-input-output">
+            <div class="input">
+               <textarea id="input-text" placeholder ="Digite seu texto"></textarea>
+               <p><ion-icon class="icon" name="alert-circle-outline"></ion-icon> Apenas letras maiusculas e sem acentos!</p>
+            </div>
+            <div id="output">
+                <img class="img-svg" src="img-svg.svg" alt="img-svg">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <span>Digite um texto que você deseja criptografar ou descriptografar.</span> 
+            </div>  
+        </div>        
+        <div class="buttons">
+            <div class="container-buttons">
+                <button onclick="criptografar()" class="btn-crypt">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descrypt">Descriptografar</button>
+            </div>          
+        </div>
+    </main>    
+    <footer>               
+        <p>Desenvolvido por <a href="http://">Bruno Rodrigues</a></p>        
+    </footer>
+    <script src="/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
